@@ -33,6 +33,7 @@ const Search = () => {
     apiKey: "izunSdbDxLEhLDtETOKnG3n8kTAXx2JF",
     connectionTimeoutSeconds: 2,
   });
+  
 
   const handleSearch = async () => {
     try {
