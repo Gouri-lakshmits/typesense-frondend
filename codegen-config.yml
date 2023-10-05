@@ -1,0 +1,12 @@
+overwrite: true
+schema: "https://tssearch.ceymox.net/graphql"
+documents: null
+generates:
+  types/generated/graphql.ts:
+    plugins:
+      - "typescript"
+      - "typescript-resolvers"
+      
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"

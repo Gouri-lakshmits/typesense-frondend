@@ -1,0 +1,12 @@
+@import "../public/assets/fonts/poppins_font";
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: #{$base_font};
+}
+
+
